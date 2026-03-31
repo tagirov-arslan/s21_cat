@@ -47,7 +47,7 @@ int main() {
             break;
         }
 
-        // 🔥 ВОТ ЗДЕСЬ БЫЛА ПРОБЛЕМА (30ms слишком быстро)
+        
         usleep(BALL_DELAY);
 
         mvprintw(0, 0, "LEFT PLAYER SCORE = %d\n", left_score);
